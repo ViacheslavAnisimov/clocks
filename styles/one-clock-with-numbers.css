@@ -23,8 +23,9 @@ a {
   }
 
   main {
-    display: flex;
-    justify-content: center;
+    margin-top: 250px;
+    display: flex;    
+    justify-content:center;
   }
 /* @keyframes clock-animation {
   0% {
