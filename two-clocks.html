@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Two clocks 2</title>
+    <link rel="stylesheet" href="./styles/two-clocks.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a href="./index.html">Back</a>
+    </header>
+    <main>
+      <div id="clock-1" class="wrapper">
+        <h1>UTC+0</h1>
+        <div class="clock">
+          <div class="outer-clock-face">
+            <div class="marking marking-one"></div>
+            <div class="marking marking-two"></div>
+            <div class="marking marking-three"></div>
+            <div class="marking marking-four"></div>
+            <div class="inner-clock-face">
+              <div id="A1" class="hand hour-hand"></div>
+              <div id="A2" class="hand min-hand"></div>
+              <div id="A3" class="hand second-hand"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="wrapper">
+        <div id="clock-2"></div>
+        <!-- <h1>Current time</h1> -->
+        <div class="clock">
+          <div class="outer-clock-face">
+            <div class="marking marking-one"></div>
+            <div class="marking marking-two"></div>
+            <div class="marking marking-three"></div>
+            <div class="marking marking-four"></div>
+            <div class="inner-clock-face">
+              <div id="B1" class="hand hour-hand"></div>
+              <div id="B2" class="hand min-hand"></div>
+              <div id="B3" class="hand second-hand"></div>
+            </div>
+          </div>
+        </div>
+        <form action="">
+          <label for="choose-time-zone">Choose a Time Zone</label>
+          <select name="choose-time-zone" id="choose-time-zone">
+            <option value="-11">UTC-11</option>
+            <option value="-10">UTC-10</option>
+            <option value="-9">UTC-9</option>
+            <option value="-8">UTC-8</option>
+            <option value="-7">UTC-7</option>
+            <option value="-6">UTC-6</option>
+            <option value="-5">UTC-5</option>
+            <option value="-4">UTC-4</option>
+            <option value="-3">UTC-3</option>
+            <option value="-2">UTC-2</option>
+            <option value="-1">UTC-1</option>
+            <option value="0">UTC+0</option>
+            <option value="1">UTC+1</option>
+            <option value="2">UTC+2</option>
+            <option value="3">UTC+3</option>
+            <option value="4">UTC+4</option>
+            <option value="5">UTC+5</option>
+            <option value="6">UTC+6</option>
+            <option value="7">UTC+7</option>
+            <option value="8">UTC+8</option>
+            <option value="9">UTC+9</option>
+            <option value="10">UTC+10</option>
+            <option value="11">UTC+11</option>
+            <option value="12">UTC+12</option>
+          </select>
+        </form>
+        <!-- <input type="number" id="timeZone" value="" /> -->
+      </div>
+    </main>
+
+    <script src="./scripts/two-clocks.js"></script>
+  </body>
+</html>
